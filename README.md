@@ -34,6 +34,7 @@ Now install *sqshr* package in *R* using
 as it commonly
 [used](https://cran.r-project.org/web/packages/githubinstall/vignettes/githubinstall.html):
 
+    options("download.file.method" = "libcurl")  # avoid rare problems with devtools
     library(devtools)
     devtools::install_github("omega1x/sqshr")
 
