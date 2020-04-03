@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sqshr - R package to coonect to Microsoft SQL Server for Linux users
 --------------------------------------------------------------------
 
@@ -53,3 +54,7 @@ creation of connection object and (2) sending the SQL-query
 
     ##     V1  V2
     ## 1: 200 300
+=======
+# sqshr
+SQL Server client based on sqsh
+>>>>>>> 6181365599c1ad31a72884a681bf0e4b602d39a4
