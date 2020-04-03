@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 sqshr - R package to coonect to Microsoft SQL Server for Linux users
 --------------------------------------------------------------------
 
@@ -22,7 +21,7 @@ SQL server*. *Sqshr* is a tiny *R* tool built on top of
 First install
 [Sqsh](https://manpages.debian.org/testing/sqsh/sqsh.1.en.html) in your
 *Linux* system using appropriate method for your system. In
-*Debian*/*Ubuntu it looks like*
+*Debian*/*Ubuntu* it looks like
 
     > sudo apt install sqsh
 
@@ -40,12 +39,12 @@ as it commonly
 
 ### Usage
 
-The usage of *sqshr* is very straightforward and implies two steps: (1)
-creation of connection object and (2) sending the SQL-query
+The usage of *sqshr* is very straightforward and implies two steps - (1)
+creation of connection object and (2) sending the SQL-query:
 
     library(sqshr)
     # Create connection object:
-    conn <- mssql_connection(server = "10.100.104.142", domain = "SUEKCORP",
+    conn <- mssql_connection(server = "11.100.104.142", domain = "SUEKCORP",
      user = "user", password = "password")
 
     # Ask for data:
@@ -54,7 +53,3 @@ creation of connection object and (2) sending the SQL-query
 
     ##     V1  V2
     ## 1: 200 300
-=======
-# sqshr
-SQL Server client based on sqsh
->>>>>>> 6181365599c1ad31a72884a681bf0e4b602d39a4
