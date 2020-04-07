@@ -1,5 +1,6 @@
 sqshr - R package to coonect to Microsoft SQL Server for Linux users
 --------------------------------------------------------------------
+[![Build Status](https://travis-ci.com/omega1x/sqshr.svg?branch=master)](https://travis-ci.com/omega1x/sqshr)
 
 There are some inconveniences when you come to communicate with
 *Microsoft SQL server* as a *Linux* client especially in corporate
